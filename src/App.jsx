@@ -48,6 +48,11 @@ function App() {
                     <Viewed items={viewedItems} onRemove={removeFromViewed} />
                 )}
             </main>
+
+            <footer style={{ textAlign: 'center', padding: '40px 20px', color: '#aaa', fontSize: '14px' }}>
+                <p>&copy; 2025 Портал Гороскопів. Усі права захищено.</p>
+                <p>Виконавець: Воробйов Кирило, група ІА-32</p>
+            </footer>
         </div>
     );
 }
